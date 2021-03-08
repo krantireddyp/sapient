@@ -28,7 +28,7 @@ class TemperatureDetailViewController: UIViewController {
         weatherLabel.text = list.weather?.first?.main ?? ""
         weatherDescLabel.text = list.weather?.first?.weatherDescription ?? ""
         temperatureLabel.text = "\(list.main?.temp ?? 0.0)"
-        feelsLikeLabel.text = "Feels like: \(list.main?.feelsLike ?? 0.0)"
+        feelsLikeLabel.text = "Feels Like: \(list.main?.feelsLike ?? 0.0)"
     }
 
 }
